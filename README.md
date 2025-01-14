@@ -1,12 +1,12 @@
-# Haumea
+# Eris
 
 Filesystem-based module system for Nix
 
-Haumea is not related to or a replacement for NixOS modules.
+Eris is not related to or a replacement for NixOS modules.
 It is closer to the module systems of traditional programming languages,
 with support for file hierarchy and visibility.
 
-In short, haumea maps a directory of Nix files into an attribute set:
+In short, Eris maps a directory of Nix files into an attribute set:
 
 <table align="center">
 <thead>
@@ -45,12 +45,12 @@ In short, haumea maps a directory of Nix files into an attribute set:
 </tr>
 </table>
 
-Haumea's source code is hosted on [GitHub](https://github.com/nix-community/haumea)
+Eris's source code is hosted on [GitHub](https://github.com/TahlonBrahic/eris)
 under the [MPL-2.0](http://mozilla.org/MPL/2.0) license.
-Haumea bootstraps itself. You can see the entire implementation in the
-[src](https://github.com/nix-community/haumea/tree/main/src) directory.
+Erus bootstraps itself. You can see the entire implementation in the
+[src](https://github.com/nix-community/eris/tree/main/src) directory.
 
-## Why Haumea?
+## Why Eris?
 
 - No more manual imports
 
@@ -74,6 +74,6 @@ Haumea bootstraps itself. You can see the entire implementation in the
   Changing how the files are loaded is as easy as specifying a `loader`,
   and the `transformer` option makes it possible to extensively manipulate the tree.
 
-[_➔ Getting Started_](https://nix-community.github.io/haumea/intro/getting-started.html)
+[_➔ Getting Started_](https://tahlonbrahic.github.io/eris/intro/getting-started.html)
 
 [^1]: Unless you are doing transformer magic
