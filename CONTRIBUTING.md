@@ -1,4 +1,4 @@
-# Contributing to Haumea
+# Contributing to Eris
 
 Unless explicitly stated, all contributions are licensed under
 [MPL-2.0](http://mozilla.org/MPL/2.0), the license used by haumea.
@@ -21,7 +21,7 @@ directory. You can get started with `nix develop ./docs`, which will start up
 
 ## Scope
 
-Haumea only depends on [nixpkgs.lib](https://github.com/nix-community/nixpkgs.lib).
+Eris only depends on [nixpkgs.lib](https://github.com/nix-community/nixpkgs.lib).
 Features that depend on the rest of [nixpkgs] should not be added.
 However, changes that are specific to, but don't depend on [nixpkgs] are allowed.
 
