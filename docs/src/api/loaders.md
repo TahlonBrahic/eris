@@ -2,7 +2,7 @@
 
 ## `loaders.callPackage`
 
-Source: [`src/loaders/callPackage.nix`](https://github.com/nix-community/haumea/blob/main/src/loaders/callPackage.nix)
+Source: [`src/loaders/callPackage.nix`](https://github.com/TahlonBrahic/eris/blob/main/src/loaders/callPackage.nix)
 
 Type: `{ self, super, root, ... } -> Path -> a`
 
@@ -14,7 +14,7 @@ as they can be overridden with the added `override` attribute.
 
 ## `loaders.default`
 
-Source: [`src/loaders/default.nix`](https://github.com/nix-community/haumea/blob/main/src/loaders/default.nix)
+Source: [`src/loaders/default.nix`](https://github.com/TahlonBrahic/eris/blob/main/src/loaders/default.nix)
 
 Type: `{ self, super, root, ... } -> Path -> a`
 
@@ -27,7 +27,7 @@ For that reason, although not strictly forbidden, optional arguments are discour
 
 ## `loaders.path`
 
-Source: [`src/loaders/path.nix`](https://github.com/nix-community/haumea/blob/main/src/loaders/path.nix)
+Source: [`src/loaders/path.nix`](https://github.com/TahlonBrahic/eris/blob/main/src/loaders/path.nix)
 
 Type: `{ ... } -> Path -> Path`
 
@@ -35,7 +35,7 @@ This loader will simply return the path of the file without `import`ing it.
 
 ## `loaders.scoped`
 
-Source: [`src/loaders/scoped.nix`](https://github.com/nix-community/haumea/blob/main/src/loaders/scoped.nix)
+Source: [`src/loaders/scoped.nix`](https://github.com/TahlonBrahic/eris/blob/main/src/loaders/scoped.nix)
 
 Type: `{ self, super, root, ... } -> Path -> a`
 
@@ -45,7 +45,7 @@ since `scopedImport` will take care of it as if the file being loaded is wrapped
 
 ## `loaders.verbatim`
 
-Source: [`src/loaders/verbatim.nix`](https://github.com/nix-community/haumea/blob/main/src/loaders/verbatim.nix)
+Source: [`src/loaders/verbatim.nix`](https://github.com/TahlonBrahic/eris/blob/main/src/loaders/verbatim.nix)
 
 Type: `{ ... } -> Path -> a`
 

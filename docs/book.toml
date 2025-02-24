@@ -1,13 +1,13 @@
 [book]
-authors = ["figsoda"]
+authors = ["TahlonBrahic"]
 description = "Filesystem-based module system for Nix"
-title = "haumea"
+title = "eris"
 
 [build]
 extra-watch-dirs = ["."]
 
 [output.html]
-edit-url-template = "https://github.com/nix-community/haumea/edit/main/docs/{path}"
-git-repository-url = "https://github.com/nix-community/haumea"
+edit-url-template = "https://github.com/TahlonBrahic/eris/edit/main/docs/{path}"
+git-repository-url = "https://github.com/TahlonBrahic/eris"
 preferred-dark-theme = "ayu"
-site-url = "/haumea/"
+site-url = "/eris/"

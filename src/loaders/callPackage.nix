@@ -1,9 +1,1 @@
-{ lib }:
-
-let
-  inherit (lib)
-    callPackageWith
-    ;
-in
-
-inputs: path: callPackageWith inputs path { }
+lib: inputs: path: lib.callPackageWith inputs path {}

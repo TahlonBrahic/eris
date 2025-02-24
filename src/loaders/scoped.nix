@@ -1,5 +1,2 @@
-{ super }:
-
-inputs:
-
+super: inputs:
 super.defaultWith (scopedImport inputs) inputs

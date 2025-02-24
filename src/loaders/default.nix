@@ -1,3 +1,1 @@
-{ super }:
-
-super.defaultWith import
+{super}: super.defaultWith import

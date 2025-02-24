@@ -1,6 +1,6 @@
 # `load`
 
-Source: [`src/load.nix`](https://github.com/nix-community/haumea/blob/main/src/load.nix)
+Source: [`src/load.nix`](https://github.com/TahlonBrahic/eris/blob/main/src/load.nix)
 
 Type: `{ src, loader?, inputs?, transformer? } -> { ... }`
 
@@ -31,8 +31,8 @@ Arguments:
   where `[ ]` means root and `[ "foo" "bar" ]` means `root.foo.bar`.
 
 Files found in `src` are loaded into an attribute set with the specified `loader`.
-As an example, the entirety of haumea's API is `load`ed from the
-[src](https://github.com/nix-community/haumea/tree/main/src) directory.
+As an example, the entirety of eris's API is `load`ed from the
+[src](https://github.com/TahlonBrahic/eris/tree/main/src) directory.
 
 For a directory like this:
 

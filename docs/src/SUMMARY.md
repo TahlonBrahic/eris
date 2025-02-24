@@ -9,6 +9,6 @@
   - [`loaders`](api/loaders.md)
   - [`matchers`](api/matchers.md)
   - [`transformers`](api/transformers.md)
-- [Contributing to Haumea](notes/contributing.md)
+- [Contributing to Eris](notes/contributing.md)
 - [See Also](notes/see-also.md)
 - [Changelog](notes/changelog.md)

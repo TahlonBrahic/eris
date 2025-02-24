@@ -2,7 +2,7 @@
 
 ## `transformers.hoistAttrs`
 
-Source: [`src/transformers/hoistAttrs.nix`](https://github.com/nix-community/haumea/blob/main/src/transformers/hoistAttrs.nix)
+Source: [`src/transformers/hoistAttrs.nix`](https://github.com/TahlonBrahic/eris/blob/main/src/transformers/hoistAttrs.nix)
 
 Type: `(from : String) -> (to : String) -> [ String ] -> { ... } -> { ... }`
 
@@ -20,7 +20,7 @@ not otherwise tolerate them.
 
 ## `transformers.hoistLists`
 
-Source: [`src/transformers/hoistLists.nix`](https://github.com/nix-community/haumea/blob/main/src/transformers/hoistLists.nix)
+Source: [`src/transformers/hoistLists.nix`](https://github.com/TahlonBrahic/eris/blob/main/src/transformers/hoistLists.nix)
 
 Type: `(from : String) -> (to : String) -> [ String ] -> { ... } -> { ... }`
 
@@ -39,7 +39,7 @@ not otherwise tolerate them.
 
 ## `transformers.liftDefault`
 
-Source: [`src/transformers/liftDefault.nix`](https://github.com/nix-community/haumea/blob/main/src/transformers/liftDefault.nix)
+Source: [`src/transformers/liftDefault.nix`](https://github.com/TahlonBrahic/eris/blob/main/src/transformers/liftDefault.nix)
 
 Type: `[ String ] -> { ... } -> { ... }`
 
@@ -49,7 +49,7 @@ or has any overlapping attributes with the module.
 
 ## `transformers.prependUnderscore`
 
-Source: [`src/transformers/prependUnderscore.nix`](https://github.com/nix-community/haumea/blob/main/src/transformers/prependUnderscore.nix)
+Source: [`src/transformers/prependUnderscore.nix`](https://github.com/TahlonBrahic/eris/blob/main/src/transformers/prependUnderscore.nix)
 
 Type: `[ String ] -> { ... } -> { ... }`
 

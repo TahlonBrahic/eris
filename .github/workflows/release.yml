@@ -18,7 +18,7 @@ jobs:
     steps:
       - uses: softprops/action-gh-release@v1
         with:
-          body: "[CHANGELOG.md](https://github.com/nix-community/haumea/blob/main/CHANGELOG.md)"
+          body: "[CHANGELOG.md](https://github.com/TahlonBrahic/eris/blob/main/CHANGELOG.md)"
 
   flakehub:
     runs-on: ubuntu-latest

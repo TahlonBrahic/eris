@@ -1,6 +1,6 @@
 # `loadEvalTests`
 
-Source: [`src/loadEvalTests.nix`](https://github.com/nix-community/haumea/blob/main/src/loadEvalTests.nix)
+Source: [`src/loadEvalTests.nix`](https://github.com/TahlonBrahic/eris/blob/main/src/loadEvalTests.nix)
 
 Type: `{ src, loader?, inputs? } -> { }`
 
@@ -12,10 +12,10 @@ The accepted arguments are exactly the same as [`load`].
 This function will throw an error if at least one test failed,
 otherwise it will always return `{ }` (an empty attribute set).
 
-As an example, haumea's [tests](https://github.com/nix-community/haumea/tree/main/tests)
+As an example, eris's [tests](https://github.com/TahlonBrahic/eris/tree/main/tests)
 are loaded with `loadEvalTests`.
 
-Alternatively, [namaka](https://github.com/nix-community/namaka)
+Alternatively, [namaka](https://github.com/TahlonBrahic/namaka)
 provides utilities for snapshot testing,
 which can save you some time from writing reference values.
 

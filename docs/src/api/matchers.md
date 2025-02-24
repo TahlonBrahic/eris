@@ -26,7 +26,7 @@ so `far.bar.baz` will have an attribute name of `foo.bar`.
 
 ## `matchers.always`
 
-Source: [`src/matchers/always.nix`](https://github.com/nix-community/haumea/blob/main/src/matchers/always.nix)
+Source: [`src/matchers/always.nix`](https://github.com/TahlonBrahic/eris/blob/main/src/matchers/always.nix)
 
 Type: `({ self, super, root, ... } -> Path -> a }) -> Matcher`
 
@@ -34,7 +34,7 @@ Matches any file name. This can be used as the last matcher as a catch-all.
 
 ## `matchers.extension`
 
-Source: [`src/matchers/extension.nix`](https://github.com/nix-community/haumea/blob/main/src/matchers/extension.nix)
+Source: [`src/matchers/extension.nix`](https://github.com/TahlonBrahic/eris/blob/main/src/matchers/extension.nix)
 
 Type: `String -> ({ self, super, root, ... } -> Path -> a }) -> Matcher`
 
@@ -43,7 +43,7 @@ Matches files with the given extension.
 
 ## `matchers.json`
 
-Source: [`src/matchers/json.nix`](https://github.com/nix-community/haumea/blob/main/src/matchers/json.nix)
+Source: [`src/matchers/json.nix`](https://github.com/TahlonBrahic/eris/blob/main/src/matchers/json.nix)
 
 Type: `Matcher`
 
@@ -51,7 +51,7 @@ Matches all JSON files and loads them using `lib.importJSON`.
 
 ## `matchers.nix`
 
-Source: [`src/matchers/nix.nix`](https://github.com/nix-community/haumea/blob/main/src/matchers/nix.nix)
+Source: [`src/matchers/nix.nix`](https://github.com/TahlonBrahic/eris/blob/main/src/matchers/nix.nix)
 
 Type: `({ self, super, root, ... } -> Path -> a }) -> Matcher`
 
@@ -61,7 +61,7 @@ This is the default matcher if no matchers are defined.
 
 ## `matchers.regex`
 
-Source: [`src/matchers/regex.nix`](https://github.com/nix-community/haumea/blob/main/src/matchers/regex.nix)
+Source: [`src/matchers/regex.nix`](https://github.com/TahlonBrahic/eris/blob/main/src/matchers/regex.nix)
 
 Type: `(regex : String) -> ([ String ] -> { self, super, root, ... } -> Path -> a }) -> Matcher`
 
@@ -71,7 +71,7 @@ returned by `builtins.match`, as shown in the type signature (`[ String ]`).
 
 ## `matchers.toml`
 
-Source: [`src/matchers/toml.nix`](https://github.com/nix-community/haumea/blob/main/src/matchers/toml.nix)
+Source: [`src/matchers/toml.nix`](https://github.com/TahlonBrahic/eris/blob/main/src/matchers/toml.nix)
 
 Type: `Matcher`
 

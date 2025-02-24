@@ -1,26 +1,26 @@
 # Getting Started
 
-Haumea comes with a template for a simple Nix library.
+Eris comes with a template for a simple Nix library.
 You can try out the template with:
 
 ```bash
-nix flake init -t github:nix-community/haumea
+nix flake init -t github:TahlonBrahic/eris
 ```
 
 This will generate `flake.nix` and some other relevant files in the current directory.
 Or if you want to create a new directory for this, run:
 
 ```bash
-nix flake new <dir> -t github:nix-community/haumea
+nix flake new <dir> -t github:TahlonBrahic/eris
 ```
 
-You can use haumea without the template by adding it to your flake inputs:
+You can use eris without the template by adding it to your flake inputs:
 
 ```nix
 {{#include ../../../templates/default/flake.nix:2:8}}
 ```
 
-Haumea is pinned to a tag here so potential breaking changes in the main branch
+Eris is pinned to a tag here so potential breaking changes in the main branch
 wouldn't break downstream consumers.
 See the [Versioning](versioning.html) chapter for information.
 
@@ -34,7 +34,7 @@ In `flake.nix`, the main thing you want to look at is `lib`:
 {{#include ../../../templates/default/flake.nix:18:23}}
 ```
 
-`haumea.lib.load` is the main entry point of haumea.
+`eris.lib.load` is the main entry point of eris.
 It loads a directory (`./src`) of Nix files[^1] into an attribute set.
 You can see the result of this by running `nix eval .#lib`:
 
@@ -62,7 +62,7 @@ Both `{ }: 42` and `42` are valid in this case and will do exactly the same thin
 
 `self`, `super`, and `root` are special inputs that are always available.
 You might already be familiar with them based on the names.
-These names are reserved, haumea will throw an error if you try to override them.
+These names are reserved, eris will throw an error if you try to override them.
 
 The documentation for [`load`] explains this more thoroughly and talks about some workarounds.
 
