@@ -3,4 +3,4 @@
     inherit lib;
   };
 in
-  load ./src
+  load
