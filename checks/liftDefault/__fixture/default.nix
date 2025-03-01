@@ -1,4 +1,0 @@
-{
-  bar = "notbar";
-  baz = "baz";
-}

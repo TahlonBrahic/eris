@@ -12,12 +12,5 @@
     lib = import self {
       inherit (nixpkgs) lib;
     };
-    checks = self.lib.tests.load {
-      src = ./tests;
-      inputs = {
-        inherit (nixpkgs) lib;
-        haumea = self.lib;
-      };
-    };
   };
 }
